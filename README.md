@@ -4,7 +4,7 @@
 1. Main features
 1. Main requirements
 1. Further information:
-    1. [Input examples and explanations, step-by-step tutorial (optional)](doc/input.md)
+    1. [Input examples and explanations, step-by-step tutorial](doc/input.md)
     1. [More detailed description of scientific approach and input variables reference](doc/method.md)
     1. [Validity range of the parameters](doc/parameters.md)
     1. [License, bug tracker, references, citations](doc/further.md)
