@@ -5,7 +5,9 @@ import argparse
 import transform as tf
 
 def parse_command_line():
-    """Parse user input"""
+    """Function to parse user input. User input is a float and a string.
+    
+    :Returns: radius of the circle (float) and which type of object is selected (string)."""
     parser = argparse.ArgumentParser(description="""Program to calculate side length of 
         square (pentagon) containing the same area as circle with given radius. Provide input values. 
             Check -h or --help for options. Usage: ./main.py square -r 4""")
@@ -31,6 +33,7 @@ def parse_command_line():
     return r, calc_square
 
 if __name__ == "__main__":
+    """Main function that drives the calculation."""
     # Get the input parameters
     r, calc_square = parse_command_line()
     # Calculate the area of the given circle
