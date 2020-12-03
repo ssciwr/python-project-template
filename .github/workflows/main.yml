@@ -21,7 +21,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-18.04, macos-10.15, windows-2019]
-        python-version: [3.7, 3.8]
+        python-version: [3.7]
     steps:
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
@@ -32,7 +32,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pip install -r requirements.txt
     - name: Run unittest
       run: |
         cd src
