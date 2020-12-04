@@ -32,4 +32,18 @@ in the `src/` directory.
 
 ## github actions
 
-This repository contains a github action in `./github/workflows/'. This will run unit tests and update the documentation upon push to the master branch. It will also run unit tests upon pull request.
+This repository contains a github action in `./github/workflows/'. This will run linting, unit tests and update the documentation upon push to the master branch and upon pull request. The action can also be run manually in the "Actions" tab on the github website.
+
+### Linting
+The linter (in this case, `flake8` will point out potential bugs, errors, styling issues, and suspicious code.
+
+### Testing
+You should always test your code against a reference. In this template, we used `unittest` which is a python core module, but `pytest` is also a popular option (it needs to be pip installed though).
+
+So far, only *unit tests* are included in the code template (that is, tests of a specific component of the software), but as you develop your software, you should also add `integration tests` that check the overall behaviour of your code.
+
+In the github action, the tests are performed under ubuntu, windows and mac operating systems to ensure that the code runs in different environments. Also, two different python versions are tested right now, 3.7 and 3.8.
+
+### Source Code Documentation: Functions, modules, classes, ...
+The documentation should be updated as you update your code. Include appropriate method descriptions in your code and `sphinx` will update the documentation html for your functions, classes, etc. The documentation is build using `make html` in the `doc` folder. On your local machine, you can navigate to `doc/build/index.html` and check the styling.
+If your code is in a public repository, you can push your sphinx documentation to [Read the docs](https://readthedocs.org/).
