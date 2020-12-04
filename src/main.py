@@ -17,7 +17,7 @@ def parse_command_line():
         circle, in cm. \
         Default value: 3.0 cm")
     parser.add_argument("output", choices=["square", "pentagon"],
-        help="Choice of output object.")
+                        help="Choice of output object.")
 
     args = parser.parse_args()
 
