@@ -46,4 +46,4 @@ In the github action, the tests are performed under ubuntu, windows and mac oper
 
 ### Source Code Documentation: Functions, modules, classes, ...
 The documentation should be updated as you update your code. Include appropriate method descriptions in your code and `sphinx` will update the documentation html for your functions, classes, etc. The documentation is build using `make html` in the `doc` folder. On your local machine, you can navigate to `doc/build/index.html` and check the styling.
-If your code is in a public repository, you can push your sphinx documentation to [Read the docs](https://readthedocs.org/).
+If your code is in a public repository, you can push your sphinx documentation to [Read the docs](https://ssc-hd-python-project-template.readthedocs.io/en/latest/?).
