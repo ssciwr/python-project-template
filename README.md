@@ -32,7 +32,7 @@ in the `src/` directory.
 
 ## github actions
 
-This repository contains a github action in `./github/workflows/'. This will run linting, unit tests and update the documentation upon push to the master branch and upon pull request. The action can also be run manually in the "Actions" tab on the github website.
+This repository contains a github action in `./github/workflows/`. This will run linting, unit tests and update the documentation upon push to the master branch and upon pull request. The action can also be run manually in the "Actions" tab on the github website.
 
 ### Linting
 The linter (in this case, `flake8` will point out potential bugs, errors, styling issues, and suspicious code.
