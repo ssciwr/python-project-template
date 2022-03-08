@@ -42,7 +42,7 @@ You should always test your code against a reference. In this template, we used 
 
 So far, only *unit tests* are included in the code template (that is, tests of a specific component of the software), but as you develop your software, you should also add `integration tests` that check the overall behaviour of your code.
 
-In the github action, the tests are performed under ubuntu, windows and mac operating systems to ensure that the code runs in different environments. Also, two different python versions are tested right now, 3.7 and 3.8.
+In the github action, the tests are performed under ubuntu, windows and mac operating systems to ensure that the code runs in different environments. Also, two different python versions are tested right now, 3.8 and 3.9.
 
 ### Source Code Documentation: Functions, modules, classes, ...
 The documentation should be updated as you update your code. Include appropriate method descriptions in your code and `sphinx` will update the documentation html for your functions, classes, etc. The documentation is build using `make html` in the `doc` folder. On your local machine, you can navigate to `doc/build/index.html` and check the styling.
