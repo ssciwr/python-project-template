@@ -1,7 +1,7 @@
 
 repos:
   - repo: https://github.com/kynan/nbstripout
-    rev: 0.5.0
+    rev: 0.6.0
     hooks:
       - id: nbstripout
         files: ".ipynb"
@@ -9,15 +9,3 @@ repos:
     rev: 22.6.0
     hooks:
     - id: black
-  - repo: https://github.com/dfm/black_nbconvert
-    rev: v0.4.0
-    hooks:
-      - id: black_nbconvert
-  -   repo: https://github.com/pycqa/flake8
-      rev: 4.0.1 
-      hooks:
-      -   id: flake8
-  -   repo: https://github.com/s-weigand/flake8-nb
-      rev: v0.4.0 
-      hooks:
-      -   id: flake8-nb

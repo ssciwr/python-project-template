@@ -10,7 +10,7 @@
     1. [License, bug tracker, references, citations](doc/further.md)
     1. [Source code description](doc/sphinxdoc.md) - functions and classes, modules, variables
 
-# python-project-template
+## python-project-template
 
 This is a template for your software project. The example code calculates the side length of a square or a pentagon, that contains the same area as a circle of given radius r.
 
@@ -24,7 +24,7 @@ The documentation requires `sphinx` to be installed on your system.
 For installation, run  
 `source setup.sh`
 
-This will pip-install sphinx on your system.
+This will pip-install the requirements of the template (`numpy`, `sphinx` and extensions, and `pytest`) on your system.
 
 If you want to run the test module manually, execute  
 `python -m pytest`  
