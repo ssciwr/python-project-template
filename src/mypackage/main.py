@@ -7,8 +7,8 @@ import transform as tf
 
 def parse_command_line():
     """Function to parse user input. User input is a float and a string.
-    :Returns: radius of the circle (float) and which type of object is
-    selected (string)."""
+
+    :Returns: radius of the circle (float) and which type of object is selected (string)."""
     parser = argparse.ArgumentParser(
         description="""Program to calculate side
         length of square (pentagon) containing the same area as circle with
