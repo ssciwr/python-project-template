@@ -36,11 +36,7 @@ jobs:
         pip install flake8
     - name: Run linter
       run: flake8
-    - name: Run unittest
+    - name: Run pytest
       run: |
         cd src
-        python -m unittest
-    - name: Build sphinx documentation
-      run: |
-        cd doc
-        make html
+        python -m pytest
