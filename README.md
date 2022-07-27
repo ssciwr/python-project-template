@@ -31,6 +31,7 @@ If you want to run the test module manually, execute
 in the `src/` directory.
 
 The repository contains a configuration file for `pre-commit` hooks. To activate the hooks, run `pre-commit install`. This will then provide a check whenever you commit changes to the repository: In particular, the linter `flake8` will check all Python source files and iPython notebooks, and `black` will reformat all Python source files and iPython notebooks to adhere to the PEP rules.
+If the files are reformatted, or `flake8` still detects further issues, the commit will fail as the files are changed. You need to stage these changed files again using the `git add` command and the commit to the repository again. Committing these the second time should then work and you can then push to the remote. 
 
 ## github actions
 
