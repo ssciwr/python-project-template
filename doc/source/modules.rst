@@ -4,4 +4,6 @@ mypackage
 .. toctree::
    :maxdepth: 4
 
-   mypackage
+   main
+   test_transform
+   transform

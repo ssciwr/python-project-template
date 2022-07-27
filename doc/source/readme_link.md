@@ -1,3 +1,3 @@
-# Python-project-template
+# Readme
 ```{include} ../../README.md
 ```

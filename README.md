@@ -10,7 +10,7 @@
     1. [License, bug tracker, references, citations](doc/further.md)
     1. [Source code description](doc/sphinxdoc.md) - functions and classes, modules, variables
 
-# python-project-template
+## python-project-template
 
 This is a template for your software project. The example code calculates the side length of a square or a pentagon, that contains the same area as a circle of given radius r.
 

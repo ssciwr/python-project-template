@@ -35,5 +35,5 @@ jobs:
         pip install -r requirements.txt
     - name: Run pytest
       run: |
-        cd src
+        cd src/mypackage
         python -m pytest
