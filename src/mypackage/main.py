@@ -24,7 +24,11 @@ def parse_command_line():
         Default value: 3.0 cm",
     )
     parser.add_argument(
-        "output", choices=["square", "pentagon"], help="Choice of output object."
+        "-o",
+        "--output",
+        default="square",
+        choices=["square", "pentagon"],
+        help="Choice of output object.",
     )
 
     args = parser.parse_args()

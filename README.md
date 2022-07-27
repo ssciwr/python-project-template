@@ -24,7 +24,7 @@ The documentation requires `sphinx` to be installed on your system.
 For installation, run  
 `source setup.sh`
 
-This will pip-install sphinx on your system.
+This will pip-install the requirements of the template (`numpy`, `sphinx` and extensions, and `pytest`) on your system.
 
 If you want to run the test module manually, execute  
 `python -m pytest`  
