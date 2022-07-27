@@ -30,6 +30,8 @@ If you want to run the test module manually, execute
 `python -m pytest`  
 in the `src/` directory.
 
+The repository contains a configuration file for `pre-commit` hooks. To activate the hooks, run `pre-commit install`. This will then provide a check whenever you commit changes to the repository: In particular, the linter `flake8` will check all Python source files and iPython notebooks, and `black` will reformat all Python source files and iPython notebooks to adhere to the PEP rules.
+
 ## github actions
 
 This repository contains a github action in `./github/workflows/`. This will run linting, unit tests and update the documentation upon push to the master branch and upon pull request. The action can also be run manually in the "Actions" tab on the github website.
