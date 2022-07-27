@@ -27,7 +27,7 @@ For installation, run
 This will pip-install sphinx on your system.
 
 If you want to run the test module manually, execute  
-`python -m unittest`  
+`python -m pytest`  
 in the `src/` directory.
 
 ## github actions
@@ -38,7 +38,7 @@ This repository contains a github action in `./github/workflows/`. This will run
 The linter (in this case, `flake8` will point out potential bugs, errors, styling issues, and suspicious code.
 
 ### Testing
-You should always test your code against a reference. In this template, we used `unittest` which is a python core module, but `pytest` is also a popular option (it needs to be pip installed though).
+You should always test your code against a reference. In this template, we use `pytest` which is a popular option that is very versatile.
 
 So far, only *unit tests* are included in the code template (that is, tests of a specific component of the software), but as you develop your software, you should also add `integration tests` that check the overall behaviour of your code.
 
