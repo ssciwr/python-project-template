@@ -10,10 +10,9 @@ Welcome to python-project-template's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   readme_link
    modules
-   main
-   transform
-   test_transform
+   license_link
 
 Indices and tables
 ==================
