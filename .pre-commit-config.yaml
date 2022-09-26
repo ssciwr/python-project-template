@@ -1,7 +1,7 @@
 
 repos:
   - repo: https://github.com/kynan/nbstripout
-    rev: 0.6.0
+    rev: 0.6.1
     hooks:
       - id: nbstripout
         files: ".ipynb"
