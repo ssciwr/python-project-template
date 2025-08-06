@@ -11,20 +11,23 @@ $$
 The program uses three functions to calculate the desired values.
 
 ## The area of a circle
-The area is calculated using 
+The area is calculated using
+
 $$
 A = \pi r^2
 $$
 
 ## The side length of a square
-The side length of a square with given area is calculated using 
+The side length of a square with given area is calculated using
+
 $$
 a = \sqrt{A}
 $$
 
 
 ## The side length of a pentagon
-The side length of a pentagon with given area is calculated using 
+The side length of a pentagon with given area is calculated using
+
 $$
 a = \sqrt{\frac{4}{\sqrt{5(5+2*\sqrt{5})}} \cdot A}
 $$
