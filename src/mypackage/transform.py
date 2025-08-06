@@ -13,9 +13,7 @@ def area_circ(r_in):
     area_out = np.pi * r_in**2
     print(
         "The area of a circle with radius r = {:3.2f}cm \
-        is A = {:4.2f}cm2.".format(
-            r_in, area_out
-        )
+        is A = {:4.2f}cm2.".format(r_in, area_out)
     )
     return area_out
 
@@ -28,9 +26,7 @@ def side_square(area_in):
     a_out = np.sqrt(area_in)
     print(
         "The side length of a square with area = {:4.2f}cm2 \
-        is a = {:3.8f}cm.".format(
-            area_in, a_out
-        )
+        is a = {:3.8f}cm.".format(area_in, a_out)
     )
     return a_out
 
@@ -44,8 +40,6 @@ def side_pentagon(area_in):
     a_out = np.sqrt(area_in * factor)
     print(
         "The side length of a pentagon with area = {:4.2f}cm2 \
-        is a = {:3.8f}cm.".format(
-            area_in, a_out
-        )
+        is a = {:3.8f}cm.".format(area_in, a_out)
     )
     return a_out
