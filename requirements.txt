@@ -1,5 +1,5 @@
 numpy==2.3.4
-click==8.3.0
+click==8.3.1
 sphinx==8.2.3
 myst-parser==4.0.1
 sphinxcontrib-napoleon==0.7
