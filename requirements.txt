@@ -6,4 +6,4 @@ sphinxcontrib-napoleon==0.7
 pytest==8.4.2
 nbstripout==0.8.1
 ruff==0.14.2
-pre-commit==4.3.0
+pre-commit==4.5.0
