@@ -4,6 +4,6 @@ sphinx==8.2.3
 myst-parser==4.0.1
 sphinxcontrib-napoleon==0.7
 pytest==9.0.2
-nbstripout==0.8.1
+nbstripout==0.8.2
 ruff==0.14.6
 pre-commit==4.5.0
