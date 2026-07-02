@@ -1,4 +1,0 @@
-# License information
-
-```{include} ../../LICENSE
-```

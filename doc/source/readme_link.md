@@ -1,3 +1,0 @@
-# Readme
-```{include} ../../README.md
-```

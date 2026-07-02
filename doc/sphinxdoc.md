@@ -1,1 +1,0 @@
-- *this can be generated using tools like sphinx*
