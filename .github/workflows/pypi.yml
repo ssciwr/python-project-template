@@ -22,4 +22,4 @@ jobs:
     - name: Build SDist
       run: pipx run build --sdist
 
-    - uses: pypa/gh-action-pypi-publish@v1.8.11
+    - uses: pypa/gh-action-pypi-publish@v1.13.0
