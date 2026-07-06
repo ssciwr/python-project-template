@@ -31,5 +31,7 @@ This is an explanation of the file structure that the cookiecutter generated for
   * `.gitlab-ci.yml` describes the configuration for Gitlab CI. For further
     reading, we recommend [Gitlabs quick start guide](https://docs.gitlab.com/ee/ci/quick_start/)
     and the [Gitlab CI configuration reference](https://docs.gitlab.com/ce/ci/yaml/)
+  * `.pre-commit-config.yaml` contains a configuration for the [pre-commit](https://pre-commit.com/)
+    tool. It was added because the `pre-commit` tool was found in your Python environment.
   * `.readthedocs.yml` configures the documentation build process at [ReadTheDocs](https://readthedocs.org).
     To customize your build, you can have a look at the [available options](https://docs.readthedocs.io/en/stable/config-file/v2.html).
