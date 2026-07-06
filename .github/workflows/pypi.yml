@@ -14,12 +14,12 @@ jobs:
       id-token: write
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v7
 
-    - uses: actions/setup-python@v5
+    - uses: actions/setup-python@v6
       name: Install Python
 
     - name: Build SDist
       run: pipx run build --sdist
 
-    - uses: pypa/gh-action-pypi-publish@v1.8.11
+    - uses: pypa/gh-action-pypi-publish@v1.14.0

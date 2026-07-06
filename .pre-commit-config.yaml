@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.14.4
+    rev: v0.15.20
     hooks:
       # Run the linter
       - id: ruff-check
@@ -25,6 +25,6 @@ repos:
 
   # GitHub Actions Workflow linter
   - repo: https://github.com/rhysd/actionlint
-    rev: v1.7.8
+    rev: v1.7.12
     hooks:
       - id: actionlint
